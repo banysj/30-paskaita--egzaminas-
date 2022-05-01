@@ -12,4 +12,4 @@ const audi = {
 };
 
 let showObjectKeys = (a) => Object.keys(a);
-console.log(showObjectKeys(audi));
+console.log('Object keys:', showObjectKeys(audi));

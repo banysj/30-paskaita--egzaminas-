@@ -29,5 +29,5 @@ const getUsersNames = (array) => {
 	return array.map((element) => element.name);
 };
 
-console.log(getUserAverageAge(users));
-console.log(getUsersNames(users));
+console.log('Users average age:', getUserAverageAge(users));
+console.log('Users names:', getUsersNames(users));

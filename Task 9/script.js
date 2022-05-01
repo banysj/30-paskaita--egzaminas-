@@ -18,6 +18,6 @@ class Movie {
 	}
 }
 
-const myMovie = new Movie('filmas', 'rezisierius', 100000001);
-console.log(myMovie);
-console.log(myMovie.wasExpensive());
+const myMovie = new Movie('movie anme', 'movie dorector', 100000001);
+console.log('Movie:', myMovie);
+console.log('Was expensive?', myMovie.wasExpensive());

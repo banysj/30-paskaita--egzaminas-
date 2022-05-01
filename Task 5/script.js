@@ -32,5 +32,5 @@ const filterAdults = (array) => {
 	});
 };
 
-console.log(filterDogOwers(users));
-console.log(filterAdults(users));
+console.log('Dog owners:', filterDogOwers(users));
+console.log('Adults:', filterAdults(users));

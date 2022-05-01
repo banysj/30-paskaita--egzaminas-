@@ -25,7 +25,7 @@ function Calculator(firstNumber, secondNumber) {
 
 const myCalculator = new Calculator(10, 2);
 
-console.log(myCalculator.sum());
-console.log(myCalculator.subtraction());
-console.log(myCalculator.multiplication());
-console.log(myCalculator.division());
+console.log('Sum result:', myCalculator.sum());
+console.log('Subtraction result:', myCalculator.subtraction());
+console.log('Multiplication result:', myCalculator.multiplication());
+console.log('Division result:', myCalculator.division());
