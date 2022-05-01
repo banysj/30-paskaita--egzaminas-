@@ -37,6 +37,6 @@ calcForm.addEventListener('submit', (event) => {
 		resultDisplay.append(resultDisplayG);
 		resultDisplay.append(resultDisplayOz);
 	} else {
-		alert('Please insert a Number');
+		alert('Please insert a number');
 	}
 });
